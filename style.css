@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'caviar';
+    src: url('CaviarDreams.ttf') format('opentype'),
+    url('CaviarDreams_Bold.ttf') format('opentype'),
+    url('CaviarDreams_BoldItalic.ttf') format('opentype'),
+    url('CaviarDreams_Italic.ttf') format('opentype');
+}
+
+
+.topopg{
+    margin-top: -3%;
+    margin-right: -5%;
+    margin-left: -7%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    /*border: none;
+    margin: none;
+    padding: none;
+    align-items: flex-start;*/
+}
+
+.img1{
+    position: absolute;
+    top: 18%;
+    left: 7%;
+}
+
+.txttopo{
+    max-width: 55%;
+    position: relative;
+    left: 2%;
+    margin-top: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    top: 100%;
+    font-size: 2.2vw;
+}
+
+.txttopo1{
+    font-family: 'caviar', 'Times New Roman', Times, serif;
+    text-align: justify;
+    width: 48%;
+    height: 10%;
+    position: absolute;
+    top: 55%;
+    left: 8.5%;
+    font-size: 1.5vw;
+}
+
