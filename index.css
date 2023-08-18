@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'Neo';
     src: url('/fonts/NeoBulletin\ Bold.ttf') format('truetype'), url('/fonts/NeoBulletin\ Extruded.otf') format('opentype');
@@ -14,6 +15,14 @@
     */
 }
 
+#txtbemvindo{
+    color: red;
+}
+
+@media screen and (max-width: 560px) {
+    
+
+
 #topo{
     background-color: none;
     width: 100%;
@@ -23,7 +32,7 @@
     margin-bottom: 20px;
     background-color: #499F68;
     margin-top: -2%;
-    margin-left: -2%;
+    margin-left: -3px;
 }
 .meio{
     background-size: 100%;
@@ -72,7 +81,7 @@
     background-image: url('img/img1.webp');
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    margin-left: -2%;
+    margin-left: -3px;
 }
 
 #txtbemvindo{
@@ -81,6 +90,7 @@
     left: 10%;
     right: 10%;
     position: absolute;
+    color: black;
 }
 
 #projetos{
@@ -109,4 +119,25 @@
 
 #teste1{
     
+}
+
+#projeto1{
+    position: absolute;
+    top: 75%;
+    text-align: left;
+    right: 30%;
+}
+
+#projeto2{
+    position: absolute;
+    top: 110%;
+    text-align: end;
+    left: 30%;
+}
+
+
+}
+
+img{
+    width: 100%;
 }
